@@ -1,0 +1,11 @@
+#include "difference_of_squares.h"
+
+unsigned int sum_of_squares(unsigned int number){
+    return number=(number*number)+(number*number)
+}
+unsigned int square_of_sum(unsigned int number){
+    return number=(number+number)*(number+number)
+}
+unsigned int difference_of_squares(unsigned int number){
+    return number=sum_of_squares(number)-square_of_sum(number)
+}
